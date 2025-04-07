@@ -28,7 +28,7 @@ public class User implements UserDetails {
     private String password;
 
     @Column(nullable = false)
-    private boolean verificationCode;
+    private String verificationCode;
 
     @Column(nullable = false)
     private LocalDateTime expiresAt;
